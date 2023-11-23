@@ -25,6 +25,7 @@ ModaMate is an innovative Augmented Reality (AR) Virtual Try-On Application desi
 - OpenCV
 - MediaPipe
 
+
 ### Installation
 1. Clone the repository:
 ```bash
