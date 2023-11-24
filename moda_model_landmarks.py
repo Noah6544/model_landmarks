@@ -79,7 +79,7 @@ def capture_from_webcam(holistic, mp_holistic, drawing_utils):
     """
     Captures video from the webcam and processes each frame.
     """
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
     while cap.isOpened():
         success, image = cap.read()
         if not success:
